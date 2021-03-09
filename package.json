@@ -1,0 +1,27 @@
+{
+  "name": "d3-examples",
+  "version": "1.0.0",
+  "description": "Data Visualization with D3",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run(){ ./scripts/live-server.js --root=$1; }; run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugrauluyurt/d3-examples.git"
+  },
+  "author": "Bugra Uluyurt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugrauluyurt/d3-examples/issues"
+  },
+  "homepage": "https://github.com/bugrauluyurt/d3-examples#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "yargs": "^16.2.0"
+  }
+}
