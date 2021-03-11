@@ -35,7 +35,6 @@ async function drawLineChart() {
         .append("svg")
         .attr("width", dimensions.width)
         .attr("height", dimensions.height);
-    console.log(wrapper);
 
     // Bounds
     const bounds = wrapper.append("g")
