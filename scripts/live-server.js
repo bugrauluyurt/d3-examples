@@ -5,7 +5,8 @@ const { hideBin } = require("yargs/helpers");
 const argv = yargs(hideBin(process.argv)).argv;
 
 const EXAMPLES = [
-    "01-making-your-first-chart"
+    "01-making-your-first-chart",
+    "02-making-a-scatterplot",
 ];
 
 const getMountPoints = () => {
