@@ -7,6 +7,7 @@ const argv = yargs(hideBin(process.argv)).argv;
 const EXAMPLES = [
     "01-making-your-first-chart",
     "02-making-a-scatterplot",
+    "03-making-a-bar-chart",
 ];
 
 const getMountPoints = () => {

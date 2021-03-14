@@ -87,7 +87,7 @@ const drawChart = async () => {
         .style("font-size", "1.4em")
         .text("Relative humidity")
         .style("transform", "rotate(-90deg)")
-        .style("text-anchor", "middle")
+        .style("text-anchor", "middle");
 
     // Introducing other metric
     const colorAccessor = d => d.cloudCover;
